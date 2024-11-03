@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/pontosRestantesTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pontos Restantes: 27"
+            android:textSize="18sp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Força -->
+        <TextView
+            android:id="@+id/textViewForca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Força: 8"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonForcaMenos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-" />
+
+            <Button
+                android:id="@+id/buttonForcaMais"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+" />
+        </LinearLayout>
+
+        <!-- Destreza -->
+        <TextView
+            android:id="@+id/textViewDestreza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Destreza: 8"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonDestrezaMenos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-" />
+
+            <Button
+                android:id="@+id/buttonDestrezaMais"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+" />
+        </LinearLayout>
+
+        <!-- Constituição -->
+        <TextView
+            android:id="@+id/textViewConstituicao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Constituição: 8"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonConstituicaoMenos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-" />
+
+            <Button
+                android:id="@+id/buttonConstituicaoMais"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+" />
+        </LinearLayout>
+
+        <!-- Inteligência -->
+        <TextView
+            android:id="@+id/textViewInteligencia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inteligência: 8"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonInteligenciaMenos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-" />
+
+            <Button
+                android:id="@+id/buttonInteligenciaMais"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+" />
+        </LinearLayout>
+
+        <!-- Sabedoria -->
+        <TextView
+            android:id="@+id/textViewSabedoria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sabedoria: 8"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonSabedoriaMenos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-" />
+
+            <Button
+                android:id="@+id/buttonSabedoriaMais"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+" />
+        </LinearLayout>
+
+        <!-- Carisma -->
+        <TextView
+            android:id="@+id/textViewCarisma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Carisma: 8"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonCarismaMenos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-" />
+
+            <Button
+                android:id="@+id/buttonCarismaMais"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+" />
+        </LinearLayout>
+
+        <!-- Próximo Button -->
+        <Button
+            android:id="@+id/buttonGerarFicha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gerar Ficha"
+            android:layout_marginTop="20dp" />
+
+
+    </LinearLayout>
+</ScrollView>
